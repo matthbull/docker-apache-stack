@@ -4,6 +4,7 @@ apache:
     - "80:80"
     - "443:443"
     - "6379:6379"
+    - "9009:9009"
   volumes:
     - /var/www/vhosts:/var/www/vhosts
   links:
